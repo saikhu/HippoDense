@@ -2,3 +2,9 @@ name = "HippoDense"
 uuid = "0f24935c-1879-453e-8a6d-8a3eb2436f80"
 authors = ["Asim Usman <asimsaikhu@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+Flux3D = "432009dd-59a1-4b72-8c93-6462ce9b220f"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
