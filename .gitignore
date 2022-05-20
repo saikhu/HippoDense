@@ -1,9 +1,9 @@
 # ignore all the Mac OS files
 .DS_store
 # ignore all the following files
-.pth*
-.pickle*
-
+*.pth
+*.pickle
+events.*
 # ignore all the these folders
 /runs
 /runFolder
