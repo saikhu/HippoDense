@@ -93,3 +93,27 @@
 2022-06-07 00:45:57,328 DEBUG   SenderThread:47197 [sender.py:send_request():246] send_request: stop_status
 2022-06-07 00:46:12,594 DEBUG   HandlerThread:47197 [handler.py:handle_request():141] handle_request: stop_status
 2022-06-07 00:46:12,594 DEBUG   SenderThread:47197 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 00:46:27,841 DEBUG   HandlerThread:47197 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 00:46:27,842 DEBUG   SenderThread:47197 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 00:46:43,108 DEBUG   HandlerThread:47197 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 00:46:43,108 DEBUG   SenderThread:47197 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 00:46:51,001 WARNING MainThread:47197 [internal.py:is_dead():387] Internal process exiting, parent pid 46709 disappeared
+2022-06-07 00:46:51,001 ERROR   MainThread:47197 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-06-07 00:46:51,369 INFO    SenderThread:47197 [sender.py:finish():1110] shutting down sender
+2022-06-07 00:46:51,369 INFO    SenderThread:47197 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-07 00:46:51,371 INFO    HandlerThread:47197 [handler.py:finish():806] shutting down handler
+2022-06-07 00:46:51,807 INFO    WriterThread:47197 [datastore.py:close():279] close: /HippoDense/wandb/run-20220607_004016-2mcmn9vr/run-2mcmn9vr.wandb
+2022-06-07 00:46:51,951 INFO    SenderThread:47197 [dir_watcher.py:finish():342] scan: /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files
+2022-06-07 00:46:51,951 INFO    SenderThread:47197 [dir_watcher.py:finish():356] scan save: /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/requirements.txt requirements.txt
+2022-06-07 00:46:51,951 INFO    SenderThread:47197 [dir_watcher.py:finish():356] scan save: /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/output.log output.log
+2022-06-07 00:46:51,951 INFO    SenderThread:47197 [dir_watcher.py:finish():356] scan save: /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/wandb-metadata.json wandb-metadata.json
+2022-06-07 00:46:51,951 INFO    SenderThread:47197 [dir_watcher.py:finish():356] scan save: /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/wandb-summary.json wandb-summary.json
+2022-06-07 00:46:51,951 INFO    SenderThread:47197 [dir_watcher.py:finish():356] scan save: /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/config.yaml config.yaml
+2022-06-07 00:46:51,954 INFO    SenderThread:47197 [dir_watcher.py:finish():356] scan save: /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/conda-environment.yaml conda-environment.yaml
+2022-06-07 00:46:51,954 INFO    SenderThread:47197 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-07 00:46:51,954 INFO    SenderThread:47197 [file_pusher.py:join():150] waiting for file pusher
+2022-06-07 00:46:52,642 INFO    Thread-17 :47197 [upload_job.py:push():132] Uploaded file /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/config.yaml
+2022-06-07 00:46:52,652 INFO    Thread-15 :47197 [upload_job.py:push():132] Uploaded file /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/output.log
+2022-06-07 00:46:52,695 INFO    Thread-16 :47197 [upload_job.py:push():132] Uploaded file /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/wandb-summary.json
+2022-06-07 00:46:52,702 INFO    Thread-14 :47197 [upload_job.py:push():132] Uploaded file /HippoDense/wandb/run-20220607_004016-2mcmn9vr/files/requirements.txt
+2022-06-07 00:46:53,149 INFO    MainThread:47197 [internal.py:handle_exit():80] Internal process exited

@@ -57,3 +57,8 @@
 2022-06-07 00:45:59,705 DEBUG   SenderThread:51327 [sender.py:send():232] send: stats
 2022-06-07 00:46:04,143 DEBUG   HandlerThread:51327 [handler.py:handle_request():141] handle_request: stop_status
 2022-06-07 00:46:04,143 DEBUG   SenderThread:51327 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 00:46:19,408 DEBUG   HandlerThread:51327 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 00:46:19,408 DEBUG   SenderThread:51327 [sender.py:send_request():246] send_request: stop_status
+2022-06-07 00:46:29,926 DEBUG   SenderThread:51327 [sender.py:send():232] send: stats
+2022-06-07 00:46:34,689 DEBUG   HandlerThread:51327 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-07 00:46:34,689 DEBUG   SenderThread:51327 [sender.py:send_request():246] send_request: stop_status
