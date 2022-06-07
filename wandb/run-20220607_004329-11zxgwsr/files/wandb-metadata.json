@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-105-generic-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-06-07T00:43:30.615881",
+    "startedAt": "2022-06-07T00:43:29.465438",
+    "docker": null,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_count": 2,
+    "cpu_count": 256,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/saikhu/HippoDense.git",
+        "commit": "274a81bfe6d7959243f1bd962e2c1c5ced4dfb44"
+    },
+    "email": "asimsaikhu@gmail.com",
+    "root": "/HippoDense",
+    "host": "e19c051a1dfa",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}
