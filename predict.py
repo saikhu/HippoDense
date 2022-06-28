@@ -34,10 +34,11 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 print_config()
 
 
+image_path = ''
 
-train_transforms = Compose([ScaleIntensity(), AddChannel(), Resize((224, 224, 224)), RandRotate90(), EnsureType()])
+# test_Image_transforms = Compose([ScaleIntensity(), AddChannel(), Resize((224, 224, 224)), RandRotate90(), EnsureType()])
 
-val_transforms = Compose([ScaleIntensity(), AddChannel(), Resize((224, 224, 224)), EnsureType()])
+test_Image_transforms = Compose([ScaleIntensity(), AddChannel(), Resize((224, 224, 224)), EnsureType()])
 check_ds = ImageDataset(image_files=images, labels=labels, transform=train_transforms)
 
 im, label = monai.utils.misc.first(check_loader)
